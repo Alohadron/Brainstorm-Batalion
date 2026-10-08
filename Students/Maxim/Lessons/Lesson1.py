@@ -31,3 +31,5 @@ print(f"Тип данных после int(): {type(number)}")
 
 final_sum = number + 5
 print(f"Результат сложения вашего числа с пятеркой ({number} + 5): {final_sum}")
+
+print("Hello")
