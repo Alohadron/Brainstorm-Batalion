@@ -9,3 +9,4 @@ print(f"67: {type(number)}")
 
 final_sum = number + 5 
 print(f"72: {final_sum}")
+print()
