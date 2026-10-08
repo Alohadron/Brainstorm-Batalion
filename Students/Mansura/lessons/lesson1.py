@@ -26,3 +26,5 @@ print(f"56: {type(number)}")
 
 final_sum = number +5
 print(f"Result of your equation with five ({number}+5): {final_sum}")
+
+print("hell0")
