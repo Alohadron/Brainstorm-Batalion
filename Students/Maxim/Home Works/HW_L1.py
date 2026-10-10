@@ -1,6 +1,6 @@
 students = ["Masha", "Mila", "Dima", "Nikita"]
 students.append("Artem")
-new_students = ["Lana", "Fufu"]
+new_students = ["Lama", "NikoSlay"]
 students.extend(new_students)
 students.insert(0, "Yaroslav")
 print(students)
