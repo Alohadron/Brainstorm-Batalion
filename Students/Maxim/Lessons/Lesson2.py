@@ -52,5 +52,5 @@ names.append("Lora")
 print(names_copy)   
 print(names_copy is names)
 print(names == guests)
-print("1" in names or "Danik" in names) #or shows only if one of the two is true
+print("Masha" in names or "Danik" in names) #or shows only if one of the two is true
 #and shows only if both are true
