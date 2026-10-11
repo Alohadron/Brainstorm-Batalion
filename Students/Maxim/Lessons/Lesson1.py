@@ -7,7 +7,9 @@ print(string_single, string_double)
 text = "Programming"
 slice_1 = text[0:5]
 slice_2 = text[5:]
-slice_3 = text[: : -1]
+slice_3 = text[: : -1] #:: means reverse 
+
+#To make more bars like this at one time aka comments use ctrl + / (windows) 
 
 
 print(f"Original: {text}")  
