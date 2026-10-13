@@ -1,35 +1,35 @@
-# var = input("Enter a number:")
-# var_int = int(var)
+var = input("Enter a number:")
+var_int = int(var)
 
-# var_int *= 2
-# print(var_int)
+var_int *= 2
+print(var_int)
 
-# var_int += var_int
-# print(var_int)
+var_int += var_int
+print(var_int)
 
-# var_int %= 3
-# print(var_int)
+var_int %= 3
+print(var_int)
 
-# x = input(" enter a number:")
-# y = input(" enter a second number:")
+x = input(" enter a number:")
+y = input(" enter a second number:")
 
-# equal = x == y
-# print(equal, type(equal))
+equal = x == y
+print(equal, type(equal))
 
-# greater_than = x > y
-# print(greater_than, type(greater_than))
+greater_than = x > y
+print(greater_than, type(greater_than))
 
-# less_than = x < y
-# print(less_than)
+less_than = x < y
+print(less_than)
 
-# less_than_or_equal = x <= y
-# print(less_than_or_equal)
+less_than_or_equal = x <= y
+print(less_than_or_equal)
 
-# greater_than_or_equal = x >= y
-# print(greater_than_or_equal)
+greater_than_or_equal = x >= y
+print(greater_than_or_equal)
 
 
-guests = ["Liam", "Emma", "Danik", "Olivia"]
+guests = ["Liam", "Emma", "Daniil", "Olivia"]
 names = []
 
 name_1 = input("Input a name:")
