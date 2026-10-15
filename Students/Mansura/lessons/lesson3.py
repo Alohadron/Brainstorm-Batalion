@@ -1,14 +1,14 @@
-# authenticated_users = []
-# user_name = input("Enter your user name please:")
-# login = input("Enter your login pleae:")
-# #if user_name in authenticated_users:
-# #    print("Welcome back!")
-# if login == "1234":
-#     print("Welcome back!")
-#     authenticated_users.append(user_name)
+authenticated_users = []
+user_name = input("Enter your user name please:")
+login = input("Enter your login pleae:")
+#if user_name in authenticated_users:
+#    print("Welcome back!")
+if login == "1234":
+    print("Welcome back!")
+    authenticated_users.append(user_name)
 
-# else:
-#     print("NO ACCESS")
+else:
+    print("NO ACCESS")
 
 code = int(input("Enter a number:"))
 
