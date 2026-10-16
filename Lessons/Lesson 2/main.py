@@ -35,3 +35,5 @@ print(names_copy is names)
 print(names == guests)
 
 print('Masha' in names and 'Danik' in names)
+
+print("")
