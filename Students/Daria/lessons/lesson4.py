@@ -12,12 +12,12 @@
 #         print(f"{num}: odd")
 
 
-while(True):
-    word = input("Input your word: ")
+# while(True):
+#     word = input("Input your word: ")
 
-    if word.capitalize() == "Finish":
-        break
-    if word.capitalize().startswith("M"):
-        continue 
-    for char in word:
-        print(char)
+#     if word.capitalize() == "Finish":
+#         break
+#     if word.capitalize().startswith("M"):
+#         continue 
+#     for char in word:
+#         print(char)
