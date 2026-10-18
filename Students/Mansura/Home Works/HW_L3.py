@@ -31,7 +31,7 @@ match operation:
 door =(input("Pick a door: red  blue  green: "))
 match door:
     case "red":
-        print("There is a dragon! What will you do? 1- Fight  2- Run")
+        print("There is a dragon! What will you do?")
         choice = int(input("1- Fight  2- Run:"))
         if choice ==1:
          print("You have defeated the dragon!")
