@@ -15,7 +15,7 @@
 
 guests = ["John", "Mary", "Peter", "Jane"]
 names = []
-
+10
 name_1 = input("Enter a name: ")
 name_2 = input("Enter a name: ")
 name_3 = input("Enter a name: ")
