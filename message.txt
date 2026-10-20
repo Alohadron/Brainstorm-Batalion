@@ -1,3 +1,0 @@
-Maxim
-Age 16
-Fav language - python

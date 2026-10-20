@@ -44,7 +44,7 @@ while True:
     print('-- 5 -- remove note')
     print() 
 
-    action = int(input('What you gonna do?\naction: ')) #\naction starts from a new line
+    action = int(input('What you gonna do?\naction: ')) #\n starts from a new line
 
     if  action == 1:
         print('What do u want to note?: ')
