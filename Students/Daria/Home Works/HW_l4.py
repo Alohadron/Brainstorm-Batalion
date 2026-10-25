@@ -29,5 +29,5 @@ while password_granted:
         continue
     balance -= amount 
     print(f"Succesfull: {amount}")
-    
+
 
