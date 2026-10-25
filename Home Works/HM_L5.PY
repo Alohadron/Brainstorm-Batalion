@@ -10,8 +10,6 @@
 # - Close the file properly.
 
 
-
-
 # Exercise 2: Read a File
 # Easy
 # Create a file named story.txt containing at least five lines of text.
