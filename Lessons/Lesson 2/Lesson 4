@@ -1,0 +1,17 @@
+
+while (True):
+    word = input('Input your word:')
+
+    #capitalize() - convert first character to uppercase
+    # verify if word is 'Finish'
+    if word.capitalize() == 'Finish' :
+        # stop loop
+        break
+
+    # startwith() -verify if first characted of word is 'M'
+    if word.capitalize().startswith('M'):
+        #skip next in loop
+        continue
+
+    for char in word:
+        print(char)
