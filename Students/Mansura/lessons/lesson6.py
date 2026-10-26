@@ -1,3 +1,3 @@
-for i in range(1,11):
-    total= i-1
+for itotal in range(1,11):
+    i-1
 print(total)
