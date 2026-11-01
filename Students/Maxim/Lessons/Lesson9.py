@@ -30,60 +30,60 @@
 # mercedes = Car(200, 'sport', 'mercedes')
 # mercedes.present()
 
-# class Animal:
-#     def __init__(self, name, family, habitat):
-#         self.name = name
-#         self.family = family
-#         self.habitat = habitat
-#     def voice(self):
-#         pass
-#     def move(self):
-#         pass
-#     def eat(self):
-#         pass
-# class Cat(Animal): #child class and parent class
-#     def __init__(self, name, breed):
-#         super().__init__(name, 'Felidae', 'Home')
-#         #super(). connects Cat with Animal, always written in child class
-#         self.breed = breed #unique parameter
-#     def voice(self):
-#         return f'{self.name} says: Meow!'
-#     #self.name = given name of the cat
-#     def move(self):
-#         return f'{self.name} creeps silently'
-#     def eat(self):
-#         return f"{self.name} its eating food from a bowl"
-#     def purr(self):#unique method
-#         return f"{self.name} is purring"
-# class Dog(Animal):
-#     def __init__(self, name, training_level):
-#         super().__init__(name, 'Canidae', 'Home')
-#         self.training_level = training_level
-#     def voice(self):
-#         return f"{self.name} barks!"
-#     def move(self):
-#         return f'{self.name} runs'
-#     def eat(self):
-#         return f"{self.name} chews bones"
-#     def training_level(self): #another unique method 
-#         return f"{self.name} is sporty"
-# #example usage.
-# animals = [Cat('Murka', "British shorthair"),
-#            Dog('Bobik', "Advanced")]
+class Animal:
+    def __init__(self, name, family, habitat):
+        self.name = name
+        self.family = family
+        self.habitat = habitat
+    def voice(self):
+        pass
+    def move(self):
+        pass
+    def eat(self):
+        pass
+class Cat(Animal): #child class and parent class
+    def __init__(self, name, breed):
+        super().__init__(name, 'Felidae', 'Home')
+        #super(). connects Cat with Animal, always written in child class
+        self.breed = breed #unique parameter
+    def voice(self):
+        return f'{self.name} says: Meow!'
+    #self.name = given name of the cat
+    def move(self):
+        return f'{self.name} creeps silently'
+    def eat(self):
+        return f"{self.name} its eating food from a bowl"
+    def purr(self):#unique method
+        return f"{self.name} is purring"
+class Dog(Animal):
+    def __init__(self, name, training_level):
+        super().__init__(name, 'Canidae', 'Home')
+        self.training_level = training_level
+    def voice(self):
+        return f"{self.name} barks!"
+    def move(self):
+        return f'{self.name} runs'
+    def eat(self):
+        return f"{self.name} chews bones"
+    def training_level(self): #another unique method 
+        return f"{self.name} is sporty"
+#example usage.
+animals = [Cat('Murka', "British shorthair"),
+           Dog('Bobik', "Advanced")]
 
-# for animal in animals:
-#     print(f'{animal.name} ({animal.family})')
-#     print(animal.voice())
-#     print(animal.move())
-#     print(animal.eat())
-#     print()
+for animal in animals:
+    print(f'{animal.name} ({animal.family})')
+    print(animal.voice())
+    print(animal.move())
+    print(animal.eat())
+    print()
 
-import unittest
-class TestMain(unittest.TestCase):
-    def test_location(self):
-        a = 'red'
-        b = 'green'
-        self.assertEqual(a, b)
+# import unittest
+# class TestMain(unittest.TestCase):
+#     def test_location(self):
+#         a = 'red'
+#         b = 'green'
+#         self.assertEqual(a, b)
 
-if __name__ == '__main__':
-    unittest.main()
+# if __name__ == '__main__':
+#     unittest.main()

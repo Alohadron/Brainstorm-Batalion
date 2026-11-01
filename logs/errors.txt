@@ -1,0 +1,2 @@
+[ALERT] Error: Connection failed
+[ALERT] Error: Timeout
