@@ -27,7 +27,7 @@ while True:
     print('--4-- Remoe note')
     print()
     action = int(input('What you gonna do? \naction: '))
-    if acton ==1:
+    if acton == 1:
         print("What do you want to note?")
         note = input("Write a note: ")
         file_name = input("Input a file name: ")
